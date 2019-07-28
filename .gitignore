@@ -2,12 +2,18 @@
 */config/development
 */logs/log-*.php
 !*/logs/index.html
-*/cache/*
-!*/cache/index.html
-!*/cache/.htaccess
+application/cache/*
+!application/cache/index.html
 
 #codeigniter 3
 application/logs/*
 !application/logs/index.html
-!application/logs/.htaccess
+!application/*/.htaccess
+composer.lock
+
 /vendor/
+
+# IDE Files
+#-------------------------
+/nbproject/
+.idea/*
